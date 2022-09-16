@@ -5,6 +5,8 @@ import { loadFull } from "tsparticles";
 import Navbar from "./components/Navbar"
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects/Projects"
+import Resume from "./components/Resume/Resume"
 import About from "./components/About/About";
 import logo from "./logo.svg";
 import "./style.css"
@@ -26,6 +28,8 @@ function App() {
         <Routes>
           <Route path="/portfolio" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="/project" exact element={<Projects />} />
+          <Route path="/resume" exact element={<Resume />} />
         </Routes>
         <Footer />
       </div>
