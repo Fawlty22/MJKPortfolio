@@ -26,13 +26,13 @@ function App() {
         <Particles options={particlesOptions} init={particlesInit} />
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/MJKPortfolio" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/project" exact element={<Projects />} />
           <Route path="/resume" exact element={<Resume />} />
           <Route
         path="*"
-        element={<Navigate to="/" replace />}
+        element={<Navigate to="/MJKPortfolio" replace />}
     />       
         </Routes>
         <Footer />
