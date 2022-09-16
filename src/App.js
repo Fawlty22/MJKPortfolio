@@ -26,7 +26,7 @@ function App() {
         <Particles options={particlesOptions} init={particlesInit} />
         <Navbar />
         <Routes>
-          <Route path="/portfolio" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/project" exact element={<Projects />} />
           <Route path="/resume" exact element={<Resume />} />

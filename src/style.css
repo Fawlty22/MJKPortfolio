@@ -599,6 +599,10 @@ html {
 /* --------- */
 /* Resume */
 /* --------- */
+.resume-box{
+  display: flex;
+  justify-content: center;
+}
 
 .resume-section {
   position: relative !important;
@@ -739,3 +743,4 @@ html {
 .fork-btn-inner::after {
   display: none !important;
 }
+
