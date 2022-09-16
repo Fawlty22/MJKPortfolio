@@ -1,10 +1,10 @@
 {
   "name": "mjk-portfolio-remake",
   "version": "0.1.0",
+  "homepage": "http://Fawlty22.github.io/MJKPortfolio",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.1",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
