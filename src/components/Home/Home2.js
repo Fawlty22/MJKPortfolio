@@ -26,14 +26,7 @@ function Home2() {
               </i>
               , though I do have experience with other technology stacks which you can find on my resume, linked above.  
               <br />
-              <br />
-              In my free time, I am an avid &nbsp;
-              <i>
-                <b className="purple">disc golfer and skier. </b> 
-              </i>
-              I am also a huge Magic: the Gathering nerd. But when im in the office, I enjoy
-                <i><b className="purple"> learning new technologies and building projects</b></i>
-              <br />
+              
               <br />
               Potential future employers and new friends alike, please feel free to contact me by pressing the button below. My
               <i>
@@ -56,9 +49,6 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
