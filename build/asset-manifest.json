@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MJKPortfolio/static/css/main.06992cdd.css",
-    "main.js": "/MJKPortfolio/static/js/main.79c8fe14.js",
+    "main.js": "/MJKPortfolio/static/js/main.968c1204.js",
     "static/media/pawgers.png": "/MJKPortfolio/static/media/pawgers.5f035213373bb8e7decc.png",
     "static/media/skiHaus.png": "/MJKPortfolio/static/media/skiHaus.a44c6b7e58ef4d0beedc.png",
     "static/media/FlightPlan.png": "/MJKPortfolio/static/media/FlightPlan.5756344e5d025ab2eb05.png",
     "static/media/DeepThoughts.png": "/MJKPortfolio/static/media/DeepThoughts.1de5f2b4b0fbcdb8a63f.png",
     "static/media/PhotoPort.png": "/MJKPortfolio/static/media/PhotoPort.8c270dfeae4056674cb9.png",
-    "static/media/Resume.pdf": "/MJKPortfolio/static/media/Resume.750538a5365ea3c8da44.pdf",
+    "static/media/Resume.pdf": "/MJKPortfolio/static/media/Resume.61d3aa9121dbc51a768e.pdf",
     "static/media/home-main.svg": "/MJKPortfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/MJKPortfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/Chatterstorm.png": "/MJKPortfolio/static/media/Chatterstorm.a709d63095f497465e6b.png",
@@ -15,10 +15,10 @@
     "static/media/logo.svg": "/MJKPortfolio/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/MJKPortfolio/index.html",
     "main.06992cdd.css.map": "/MJKPortfolio/static/css/main.06992cdd.css.map",
-    "main.79c8fe14.js.map": "/MJKPortfolio/static/js/main.79c8fe14.js.map"
+    "main.968c1204.js.map": "/MJKPortfolio/static/js/main.968c1204.js.map"
   },
   "entrypoints": [
     "static/css/main.06992cdd.css",
-    "static/js/main.79c8fe14.js"
+    "static/js/main.968c1204.js"
   ]
 }

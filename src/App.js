@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import Particles from "react-particles";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom"
 import { loadFull } from "tsparticles";
 import Navbar from "./components/Navbar"
 import Home from "./components/Home/Home";
@@ -30,6 +30,10 @@ function App() {
           <Route path="/about" exact element={<About />} />
           <Route path="/project" exact element={<Projects />} />
           <Route path="/resume" exact element={<Resume />} />
+          <Route
+        path="*"
+        element={<Navigate to="/" replace />}
+    />       
         </Routes>
         <Footer />
       </div>
