@@ -1,23 +1,37 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { 
+import {
   SiExpress,
   SiBootstrap,
   SiHtml5,
-  SiMysql
+  SiMysql,
+  SiGraphql,
+  SiCss3,
+  SiJest,
+  SiHandlebarsdotjs,
+  SiAmazonaws,
+  SiJquery,
+  SiApollographql,
+  SiJsonwebtokens,
 } from "react-icons/si";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPhp
-} from "react-icons/di";
+import { DiJavascript1, DiReact, DiNodejs, DiMongodb } from "react-icons/di";
 import { AiFillApi } from "react-icons/ai";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
@@ -31,22 +45,22 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1/>
+        <SiGraphql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <SiHandlebarsdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
+        <SiJest />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql/>
+        <SiApollographql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <AiFillApi />
+        <SiJsonwebtokens />
       </Col>
     </Row>
   );
