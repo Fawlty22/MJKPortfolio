@@ -9,9 +9,10 @@ import Projects from "./components/Projects/Projects"
 import Resume from "./components/Resume/Resume"
 import About from "./components/About/About";
 import logo from "./logo.svg";
-import "./style.css"
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css"
 import particlesOptions from "./particles.json";
 
 
