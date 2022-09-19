@@ -36,8 +36,8 @@ function NavbarComponent() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}>
-      <Container>
-      <Col md="4" className="footer-body">
+      <Container id="nav-icons">
+      <Col md="4"  className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a

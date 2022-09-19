@@ -90,6 +90,7 @@ html {
   position: relative !important;
   background-color: transparent !important;
   border-color: transparent !important;
+  margin: auto;
 }
 
 .navbar-toggler span {
@@ -433,6 +434,7 @@ html {
   margin-bottom: 0.5em !important;
   padding: 0 !important;
   display : flex;
+  justify-content: center;
 }
 
 .blockquote-footer {
@@ -744,3 +746,11 @@ html {
   display: none !important;
 }
 
+@media (max-width: 687px) {
+  .navbar>.container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+  }
+}
