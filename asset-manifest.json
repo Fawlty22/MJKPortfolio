@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MJKPortfolio/static/css/main.06992cdd.css",
-    "main.js": "/MJKPortfolio/static/js/main.3b82e322.js",
+    "main.css": "/MJKPortfolio/static/css/main.ae6c4f7a.css",
+    "main.js": "/MJKPortfolio/static/js/main.23479d23.js",
     "static/media/pawgers.png": "/MJKPortfolio/static/media/pawgers.5f035213373bb8e7decc.png",
     "static/media/skiHaus.png": "/MJKPortfolio/static/media/skiHaus.a44c6b7e58ef4d0beedc.png",
     "static/media/FlightPlan.png": "/MJKPortfolio/static/media/FlightPlan.5756344e5d025ab2eb05.png",
@@ -14,11 +14,11 @@
     "static/media/avatar.svg": "/MJKPortfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/logo.svg": "/MJKPortfolio/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/MJKPortfolio/index.html",
-    "main.06992cdd.css.map": "/MJKPortfolio/static/css/main.06992cdd.css.map",
-    "main.3b82e322.js.map": "/MJKPortfolio/static/js/main.3b82e322.js.map"
+    "main.ae6c4f7a.css.map": "/MJKPortfolio/static/css/main.ae6c4f7a.css.map",
+    "main.23479d23.js.map": "/MJKPortfolio/static/js/main.23479d23.js.map"
   },
   "entrypoints": [
-    "static/css/main.06992cdd.css",
-    "static/js/main.3b82e322.js"
+    "static/css/main.ae6c4f7a.css",
+    "static/js/main.23479d23.js"
   ]
 }
