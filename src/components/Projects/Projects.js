@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import pawgers from "../../assets/Projects/pawgers.png";
 import PhotoPort from "../../assets/Projects/PhotoPort.png";
 import skiHaus from "../../assets/Projects/skiHaus.png";
-import FlightPlan from "../../assets/Projects/FlightPlan.png";
+import MyBag from "../../assets/Projects/MyBag.png";
 import DeepThoughts from "../../assets/Projects/DeepThoughts.png";
 import Chatterstorm from "../../assets/Projects/Chatterstorm.png";
 
@@ -20,6 +20,7 @@ function Projects() {
         Here is a selection of projects I've built. Please use the buttons to visit the live application and GitHub.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={skiHaus}
@@ -29,7 +30,18 @@ function Projects() {
               githubLink="https://github.com/Fawlty22/skiHaus"
               siteLink="https://ski-haus.herokuapp.com/"
             />
-          </Col>          
+          </Col>   
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MyBag}
+              isBlog={false}
+              title="MyBag"
+              description="MyBag was built to help me keep track of my hundreds of disc golf discs. Users can login, search for discs to add to their collection, and toggle them in and out of their bag. More work is coming on the search filters and disc images! Any criticism is welcome!"
+              githubLink="https://github.com/Fawlty22/MyBag"
+              siteLink="https://discgolfbag.herokuapp.com"
+            />
+          </Col>       
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -50,17 +62,6 @@ function Projects() {
               description="Deep Thoughts is a basic social media app for sharing your own thoughts and reacting to those of other users. Make your own profile, follow friends, view your various feeds. This app has a simple front-end as this projects' purpose was to practice with more complex MongoDB structure."
               githubLink="https://github.com/Fawlty22/DeepThoughts"
               siteLink="https://cryptic-coast-81537.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={FlightPlan}
-              isBlog={false}
-              title="FlightPlan"
-              description="FlightPlan was my first group project in my bootcamp. Using very basic technologies, this app asks where you would like to travel and returns all flights within your desired budget and dates. Unfortunately, the API this project relied on has since been disabled."
-              githubLink="https://github.com/Fawlty22/FlightPlan"
-              siteLink="https://fawlty22.github.io/FlightPlan/"
             />
           </Col>
 
