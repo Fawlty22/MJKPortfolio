@@ -22,7 +22,10 @@ function Home2() {
               <br />
               <br />I am most familiar with 
               <i>
-                <b className="purple"> Javascript ES6+ and the MERN stack </b>
+                <b className="purple"> Typescript, JavaScript ES6+ </b>
+                <span>and the</span>
+                <b className="purple">  MERN/MEAN stack</b>
+                
               </i>
               , though I do have experience with other technology stacks which you can find on my resume, linked above.  
               <br />
