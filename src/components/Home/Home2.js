@@ -18,16 +18,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I currently reside in Beacon, NY, after recently receiving a certificate in Full Stack Web Development from the University of Utah.
+            I'm originally from Long Island, but currently living in upstate New York.
               <br />
-              <br />I am most familiar with 
+              <br />I am proficient in
               <i>
                 <b className="purple"> Typescript, JavaScript ES6+ </b>
                 <span>and the</span>
-                <b className="purple">  MERN/MEAN stack</b>
+                <b className="purple">  MEAN/MERN stack. </b>
                 
               </i>
-              , though I do have experience with other technology stacks which you can find on my resume, linked above.  
+              Recently I have fallen in love with NestJs for my API's and server-side code. Though Nest uses Express under the hood, the MNAN stack just doesn't quite have a ring to it...
+               <br/>
+               <br/>
+               I also have experience building applications using various AWS resources, including Amplify, EC2, S3, SES, and more.
+               I am also familiar with various testing software and AGILE workflow applications. A more specific breakdown of tools I use can be found on the About page
               <br />
               
               <br />

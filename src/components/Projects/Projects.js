@@ -28,7 +28,6 @@ function Projects() {
               isBlog={false}
               title="GrowGen"
               description="Sample B2C ECommerce site for potential client. Written in Angular/NestJs. This application utilizes AWS S3, MariaDB, Amplify, EC2 & SES. User's can submit fake orders through Stripe by using any valid test credit card number. User's receive emails for all signup and order activity."
-              githubLink="https://github.com/Fawlty22/skiHaus"
               siteLink="https://dev.ce.kogentservices.com"
             />
           </Col>
