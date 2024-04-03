@@ -7,28 +7,39 @@ import skiHaus from "../../assets/Projects/skiHaus.png";
 import MyBag from "../../assets/Projects/MyBag.png";
 import DeepThoughts from "../../assets/Projects/DeepThoughts.png";
 import Chatterstorm from "../../assets/Projects/Chatterstorm.png";
-import growGen from "../../assets/Projects/growGen.png";
+// import growGen from "../../assets/Projects/growGen.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-    
       <Container>
         <h1 className="project-heading">
           Showcasing My <strong className="purple">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
-        Here is a selection of projects I've built. Please use the buttons to visit the live application and GitHub.
+          Here is a selection of projects I've built in school and in my spare time. 
+          <br/>Please use the buttons to visit the live application and GitHub. 
+          <br/>To view my work experience and professional projects, check out my <a className="purple" href="/resume"><strong>resume</strong></a>. 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-        <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={growGen}
               isBlog={false}
               title="GrowGen"
               description="Sample B2C ECommerce site for potential client. Written in Angular/NestJs. This application utilizes AWS S3, MariaDB, Amplify, EC2 & SES. User's can submit fake orders through Stripe by using any valid test credit card number. User's receive emails for all signup and order activity."
               siteLink="https://dev.ce.kogentservices.com"
+            />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MyBag}
+              isBlog={false}
+              title="MyBag"
+              description="MyBag was built to help me keep track of my hundreds of disc golf discs. Users can login, search for discs to add to their collection, and toggle them in and out of their bag. More work is coming on the search filters and disc images! Any criticism is welcome!"
+              githubLink="https://github.com/Fawlty22/MyBag"
+              siteLink="https://discgolfbag.herokuapp.com"
             />
           </Col>
 
@@ -43,17 +54,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={MyBag}
-              isBlog={false}
-              title="MyBag"
-              description="MyBag was built to help me keep track of my hundreds of disc golf discs. Users can login, search for discs to add to their collection, and toggle them in and out of their bag. More work is coming on the search filters and disc images! Any criticism is welcome!"
-              githubLink="https://github.com/Fawlty22/MyBag"
-              siteLink="https://discgolfbag.herokuapp.com"
-            />
-          </Col>       
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pawgers}

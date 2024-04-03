@@ -4,11 +4,11 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import PDF from "../../assets/Resume.pdf"
+import PDF from "../../assets/MatthewKeysResume-2024.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Fawlty22/MJKPortfolio2/src/assets/Resume.pdf";
+  "https://raw.githubusercontent.com/Fawlty22/MJKPortfolio2/src/assets/MatthewKeysResume-2024.pdf";
   
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -26,10 +26,14 @@ function ResumeNew() {
             &nbsp;Download Resume
           </Button>
         </Row>
-
         <Row className="resume" >
           <Document className="resume-box" file={PDF}>
             <Page pageNumber={1} />
+          </Document>
+        </Row>
+        <Row className="resume" >
+          <Document className="resume-box" file={PDF}>
+            <Page pageNumber={2} />
           </Document>
         </Row>
 
