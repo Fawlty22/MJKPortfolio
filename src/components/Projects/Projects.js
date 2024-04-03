@@ -19,7 +19,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here is a selection of projects I've built in school and in my spare time. 
           <br/>Please use the buttons to visit the live application and GitHub. 
-          <br/>To view my work experience and professional projects, check out my <a className="purple" href="/resume"><strong>resume</strong></a>. 
+          <br/>To view my work experience and professional projects, check out my resume linked above. 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {/* <Col md={4} className="project-card">
