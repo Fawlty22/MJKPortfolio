@@ -22,6 +22,7 @@ function Projects() {
           <br/>To view my work experience and professional projects, check out my resume linked above. 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={growGen}
@@ -31,8 +32,16 @@ function Projects() {
               siteLink="https://dev.ce.kogentservices.com"
             />
           </Col> */}
-
           <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="COMING SOON"
+              description="This section under construction"
+              siteLink="https://youtube.com"
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MyBag}
               isBlog={false}
@@ -52,9 +61,9 @@ function Projects() {
               githubLink="https://github.com/Fawlty22/skiHaus"
               siteLink="https://ski-haus.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pawgers}
               isBlog={false}
@@ -74,9 +83,9 @@ function Projects() {
               githubLink="https://github.com/Fawlty22/DeepThoughts"
               siteLink="https://cryptic-coast-81537.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={PhotoPort}
               isBlog={false}
@@ -96,7 +105,7 @@ function Projects() {
               githubLink="https://github.com/Fawlty22/Chatterstorm"
               siteLink="https://tranquil-taiga-29709.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -18,33 +15,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm originally from Long Island, but currently living in upstate New York.
+              I'm originally from Long Island, but currently living in upstate
+              New York.
               <br />
               <br />I am proficient in
-              <i>
-                <b className="purple"> Typescript, JavaScript ES6+ </b>
-                <span>and the</span>
-                <b className="purple">  MEAN/MERN stack. </b>
-                
-              </i>
-              Recently I have fallen in love with NestJs for my API's and server-side code. Though Nest uses Express under the hood, the MNAN stack just doesn't quite have a ring to it...
-               <br/>
-               <br/>
-               I also have experience building applications using various AWS resources, including Amplify, EC2, S3, SES, and more.
-               I am also familiar with various testing software and AGILE workflow applications. A more specific breakdown of tools I use can be found on the About page
+              <b className="purple"> Typescript</b> and{" "}
+              <b className="purple">JavaScript ES6+</b>, and I have experience
+              working in <b className="purple">Python</b> and{" "}
+              <b className="purple">Java</b>. I have developed applications in
+              both <b className="purple">React</b> and{" "}
+              <b className="purple">Angular</b>, and I must say I strongly
+              prefer Angular. Ask me why!
               <br />
-              
               <br />
-              Potential future employers and new friends alike, please feel free to contact me by pressing the button below. My
+              Recently I have fallen in love with the{" "}
+              <b className="purple">AWS</b> ecosystem. I have attained my{" "}
+              <b className="purple">Certified Developer - Associate</b>{" "}
+              certificate and am working on some professional level certs next!
+              I am also familiar with various testing software and{" "}
+              <b className="purple">AGILE</b> workflow applications. A more
+              specific breakdown of tools I use can be found on the About page
+              <br />
+              <br />
+              Potential future employers and new friends alike, please feel free
+              to contact me by pressing the button below. My
               <i>
-                <b className="purple">
-                  {" "}
-                  LinkedIn, Github, and Instagram{" "}
-                </b>
+                <b className="purple"> LinkedIn, Github, and Instagram </b>
               </i>
-              are linked at the top & bottom of the page.
-              &nbsp; 
-              
+              are linked at the top & bottom of the page. &nbsp;
             </p>
           </Col>
           <Col md={4} className="myAvtar">
