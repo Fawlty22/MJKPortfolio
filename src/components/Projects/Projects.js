@@ -7,6 +7,8 @@ import skiHaus from "../../assets/Projects/skiHaus.png";
 import MyBag from "../../assets/Projects/MyBag.png";
 import DeepThoughts from "../../assets/Projects/DeepThoughts.png";
 import Chatterstorm from "../../assets/Projects/Chatterstorm.png";
+import MagicSorter from "../../assets/Projects/magic-sorter.png";
+
 // import growGen from "../../assets/Projects/growGen.png";
 
 function Projects() {
@@ -35,11 +37,20 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
+              imgPath={MagicSorter}
+              title="Magic Deck Sorter"
+              description="Magic: the Gathering deck building tool to help get live price data for decklists. View card sorted into price ranges and download checklists for building."
+              siteLink="https://d1w8g0mq3jdi27.cloudfront.net/"
+            />
+          </Col>
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
               title="COMING SOON"
               description="This section under construction"
               siteLink="https://youtube.com"
             />
-          </Col>
+          </Col> */}
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
