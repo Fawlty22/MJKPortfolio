@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/MJKPortfolio/static/css/main.ae6c4f7a.css",
-    "main.js": "/MJKPortfolio/static/js/main.cc768cd6.js",
+    "main.js": "/MJKPortfolio/static/js/main.2ef6de2b.js",
     "static/media/pawgers.png": "/MJKPortfolio/static/media/pawgers.5f035213373bb8e7decc.png",
     "static/media/skiHaus.png": "/MJKPortfolio/static/media/skiHaus.a44c6b7e58ef4d0beedc.png",
     "static/media/DeepThoughts.png": "/MJKPortfolio/static/media/DeepThoughts.1de5f2b4b0fbcdb8a63f.png",
     "static/media/PhotoPort.png": "/MJKPortfolio/static/media/PhotoPort.8c270dfeae4056674cb9.png",
     "static/media/MyBag.png": "/MJKPortfolio/static/media/MyBag.012bfb12a65f1c2ee26f.png",
-    "static/media/Resume.pdf": "/MJKPortfolio/static/media/Resume.b3beb0c20d0ab08c2898.pdf",
+    "static/media/MatthewKeysResume-2024.pdf": "/MJKPortfolio/static/media/MatthewKeysResume-2024.f426f5f304405fadd041.pdf",
     "static/media/home-main.svg": "/MJKPortfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/MJKPortfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/Chatterstorm.png": "/MJKPortfolio/static/media/Chatterstorm.a709d63095f497465e6b.png",
+    "static/media/magic-sorter.png": "/MJKPortfolio/static/media/magic-sorter.8692a0a1d9478bbf639a.png",
     "static/media/avatar.svg": "/MJKPortfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/logo.svg": "/MJKPortfolio/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/MJKPortfolio/index.html",
     "main.ae6c4f7a.css.map": "/MJKPortfolio/static/css/main.ae6c4f7a.css.map",
-    "main.cc768cd6.js.map": "/MJKPortfolio/static/js/main.cc768cd6.js.map"
+    "main.2ef6de2b.js.map": "/MJKPortfolio/static/js/main.2ef6de2b.js.map"
   },
   "entrypoints": [
     "static/css/main.ae6c4f7a.css",
-    "static/js/main.cc768cd6.js"
+    "static/js/main.2ef6de2b.js"
   ]
 }
